@@ -1,11 +1,5 @@
 <p align="center">
-  <strong>Yatta</strong><br>
-  <em>La venta, hecha.</em>
-</p>
-
-<p align="center">
-  Cobrá en el mostrador y emití la factura en el mismo momento.<br>
-  Para almacenes, kioscos y comercios que venden al público y facturan con ARCA.
+  <img src="https://github.com/GabrieLZ19/Facturador-releases/raw/main/yatta-hero.jpg" alt="Yatta. La venta, hecha. Cobrá y facturá en el mostrador." width="100%">
 </p>
 
 <p align="center">
@@ -22,65 +16,75 @@
   </a>
 </p>
 
----
+Para el almacén, el kiosco y el local que vende al público. Tocás lo que vendiste, cobrás, y ARCA autoriza la factura. No hace falta cargar la venta en otro lado.
 
-Yatta es el programa de facturación electrónica para el día del local. Tocás lo que vendiste, cobrás y ARCA (ex AFIP) autoriza el comprobante. El ticket queda listo para imprimir o para mandar.
-
-No hace falta abrir otra página ni cargar la venta dos veces.
-
-## En el mostrador
-
-- Factura C con CAE, y nota de crédito si hay que anular una venta.
-- Productos habituales a un toque, clientes guardados e historial para reimprimir.
-- Ticket térmico, PDF y el código QR del comprobante.
-- Si se corta internet, la venta queda en la computadora y se autoriza cuando vuelve la conexión.
-- Caja del día, para ver cómo cerró el local.
-- Más de un local en la misma PC, cada uno con sus propios datos.
-
-Las ventas no se suben a una nube para poder facturar. Quedan en esa computadora.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>En el momento</h3>
+      Factura con CAE al cobrar. Si hay que anular, nota de crédito. Ticket, PDF y código QR.
+    </td>
+    <td width="33%" valign="top">
+      <h3>Aunque se corte la luz de internet</h3>
+      La venta queda en la computadora. Cuando vuelve la conexión, se autoriza. Los datos no dependen de una nube.
+    </td>
+    <td width="33%" valign="top">
+      <h3>El día del local</h3>
+      Productos habituales a un toque, clientes, historial y la caja del día. Más de un local en la misma PC.
+    </td>
+  </tr>
+</table>
 
 ## Cómo empezar
 
-1. [Descargá el instalador](https://github.com/GabrieLZ19/Facturador-releases/releases/latest) (`Yatta_*_x64-setup.exe`).
-2. Ejecutalo y seguí los pasos. Sirve en Windows 10 y Windows 11, de 64 bits.
-3. La primera vez, el asistente te pide el nombre del local, el certificado de ARCA y el punto de venta.
+1. [Descargá el instalador](https://github.com/GabrieLZ19/Facturador-releases/releases/latest). El archivo se llama `Yatta_*_x64-setup.exe`.
+2. Ejecutalo. Windows 10 o Windows 11, de 64 bits.
+3. La primera vez, el asistente pide el local, el certificado de ARCA y el punto de venta.
 4. Activá la licencia con el archivo que te enviamos: **Configuración → Licencia**.
 
 La descarga no reemplaza la licencia. Cada comercio usa la suya, en su computadora.
 
-[Ver el video](https://github.com/GabrieLZ19/Facturador-releases/releases/download/v0.1.4/yatta-promo.mp4): en un minuto se ve el asistente, el mostrador y la factura autorizada.
+[Mirá el video](https://github.com/GabrieLZ19/Facturador-releases/releases/download/v0.1.4/yatta-promo.mp4): un minuto con el asistente, el mostrador y la factura autorizada.
+
+## Qué PC hace falta
+
+Yatta está pensado para la computadora que ya está en el local, no para una máquina nueva.
+
+| | Alcanza |
+| --- | --- |
+| Sistema | Windows 10 o Windows 11, de **64 bits** |
+| Memoria | 4 GB |
+| Disco | 1 GB libre |
+| Pantalla | 1366 × 768, la de casi cualquier monitor |
+| Internet | Para autorizar en ARCA. Si se corta, la venta queda guardada |
+
+Con eso entra la gran mayoría de las PCs de comercio de los últimos años. No hace falta placa de video ni disco sólido. Una impresora térmica es opcional: también se puede guardar el PDF.
+
+**Windows 7 y Windows 8 no abren Yatta.** Tampoco una PC de 32 bits. El programa usa el visor de ventanas de Windows, y Microsoft solo lo mantiene desde Windows 10 en adelante. No es un ajuste del instalador: en esas máquinas el programa no llega a abrirse. Si el local todavía tiene Windows 7, primero hay que pasar esa PC a Windows 10.
+
+Si al instalar Windows pide un componente de Microsoft (WebView2), aceptalo. Es lo que dibuja la ventana. En la mayoría de las computadoras ya está.
 
 ## Si necesitás una mano
 
-En el programa: **Configuración → Soporte → Escribir por WhatsApp**. El mensaje ya trae la versión y el estado de la licencia, así no tenés que explicar todo desde cero.
-
-También podés escribir directo:
+En el programa: **Configuración → Soporte → Escribir por WhatsApp**. El mensaje ya trae la versión y el estado de la licencia.
 
 **[Abrir WhatsApp](https://wa.me/5493865376697?text=Hola%2C%20necesito%20ayuda%20con%20Yatta.)**
 
-Si hace falta mirar un poco más, en esa misma pantalla se exporta un paquete. Adjuntalo al chat. No incluye claves.
+Si hace falta mirar un poco más, en esa pantalla se exporta un paquete y se adjunta al chat. No incluye claves.
 
 ## Se mantiene al día
 
-Al abrir Yatta, busca si hay una versión nueva. También podés entrar a **Configuración → Actualizaciones**. La actualización se baja sola y se comprueba antes de instalarse.
+Al abrir Yatta, busca si hay una versión nueva. También está en **Configuración → Actualizaciones**. Se baja sola y se comprueba antes de instalarse. Sin internet, el programa sigue con lo que ya tenés.
 
-Sin internet, el programa sigue funcionando con lo que ya tenés.
-
-## Para instalar sin sorpresas
-
-- Windows 10 u 11, de 64 bits.
-- Internet la primera vez, para que ARCA autorice.
-- El certificado de tu comercio y la licencia de Yatta.
-
-Si Windows pide instalar un componente de Microsoft (WebView2), aceptalo: es lo que dibuja la ventana del programa. En la mayoría de las computadoras ya está.
+## Los archivos de esta página
 
 | Archivo | Para qué sirve |
 | --- | --- |
 | `Yatta_*_x64-setup.exe` | El instalador. Es el único que tenés que bajar. |
-| `yatta-promo.mp4` | El video de presentación. |
-| `*.sig` y `latest.json` | Los usa el programa para actualizarse. No hace falta descargarlos a mano. |
+| `yatta-promo.mp4` | El video. |
+| `*.sig` y `latest.json` | Los usa el programa para actualizarse. No hace falta bajarlos a mano. |
 
-Los instaladores están firmados. En esta página no está el código del programa, ni certificados, ni claves de nadie.
+Los instaladores están firmados. Acá no está el código del programa, ni certificados, ni claves de nadie.
 
 Yatta se usa con una licencia por computadora. Tener el instalador no habilita a facturar sin esa licencia.
 
